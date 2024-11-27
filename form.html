@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Form in HTML</title>
+
+    </head>
+    <body>
+        <h1 align="center">University Admission Form</h1>
+       <form>
+        <!--Personal Information-->
+            <fieldset >
+                <legend><strong>Personal Information</strong></legend>
+                <label for="Fullname">Full Name:</label>
+                <input type="text" name="Fname" id="Fullname"> 
+                <br><br>
+
+                <label for="DOB">Date Of Birth:</label>
+                <input type="date" name="DOB" id="DOB">
+                <br><br>
+
+                <label for="gender">Gender:</label> <br>
+            
+                <input type="radio" name="gender" id="Male" value="Male">
+                <label for="Male">Male</label> 
+                <br>
+                <input type="radio" name="gender" id="Female" value="Female">
+                <label for="Female">Female</label> 
+               <br>
+                <input type="radio" name="gender" id="Other" value="Other">
+                <label for="Other">Other</label> 
+               
+                <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="xyz@email.com">
+                <br><br>
+                <label for="phon.">Phone Number:</label>
+                <input type="tel" name="Phone number" placeholder="1234567890" id="phon.">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                 <!--Addredd information section-->
+                <legend>
+                    <strong>Address Information</strong>
+                </legend>
+               <label for="add">Address:</label>
+                <br>
+              <textarea type="text" name="add" rows="4" cols="50"></textarea>
+              <br><br>
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city">
+              <br><br>
+              <label for="state">State:</label>
+              <input type="text" id="state" name="state">
+              <br><br>
+              <label for="zipcode">Zip Code:</label>
+              <input type="text" id="zipcode" name="zipcode">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <!--Academic Information-->
+                <legend>Academic Information</legend>
+                <label for="degree">Degree Applied For:</label>
+                <select id="degree" name="degree">
+                    <option>--select--</option>
+                    <option value="bdegree">Bechelor's Degree</option>
+                    <option value="mdegree">Master's Degree</option>
+                    <option value="phd">PhD</option>
+                </select>
+                <br><br>
+                <label for="previous_school">Previous School/College:</label>
+                <input type="text" id="previous_school" name="previous_school">
+                <br><br>
+                <label for="percentage">Last Exam Score (e.g., GPA or Percentage):</label>
+                <input type="text" name="percentage" id="percentage">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <!--Additional Informational-->
+                <legend>Additional Informational</legend>
+                <label for="hobbies">Hobbies/Interests:</label> <br>
+                <textarea id="hobbies" name="hobbies" rows="4" cols="50" placeholder="write your Hobbies/Interests"></textarea>
+                <br><br>
+                <label for="comments">Additional Comments:</label> <br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+            </fieldset>
+            <p align="center"><input type="submit" value="Submit Form"></p>
+
+
+
+            
+
+
+
+
+
+
+
+       </form>
+    </body>
+</html>
